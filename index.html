@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+
   <title>Folio - Personal Portfolio Template</title>
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -43,13 +44,18 @@
 
 <body>
 
+  <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  
+
   <!-- start section navbar -->
   <nav id="main-nav">
     <div class="row">
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <a href="index.html"><img src="images/logo2.png" alt="logo"></a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
@@ -58,7 +64,6 @@
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#journal" class="smoothScroll">Blog</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
 
@@ -80,7 +85,7 @@
         <ul class="list-unstyled list-social">
           <li><a href="#"><i class="fab fa-github"></i></a></li>
           <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
-          <li><a href="#"><i class="far fa-file"></i></a></li>
+          <li><a href="#"><i class="far fa-file-pdf"></i></a></li>
         </ul>
     </div>
 
@@ -111,7 +116,7 @@
           <div id="education" class="row">
           <div class="col-lg-6">
               <p class="educationtitle"><i class="fas fa-school"></i> Education:</p>
-              <p>Penn State University</p>
+              <p><strong>Penn State University</strong></p>
               <p>IST Design and Development</p>
               <p>2017 - 2021</p>
           </div>
@@ -119,9 +124,9 @@
           <div class="col-lg-6">
               <br>
               <br>
-              <p class="">Udemy</p>
-              <p class="">Colte Steele's Web Dev Bootcamp</p>
-              <p class="">Oct 2019</p>
+              <p><strong>Colte Steele's Web Dev Bootcamp</strong></p>
+              <p>Udemy</p>
+              <p>Oct 2019</p>
           </div>
         </div>
         
@@ -142,47 +147,55 @@
 
             <i class="ion-ios-browsers-outline"></i>
             <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <p class="separator">User-centered design, Adobe XD</p>
 
           </div>
 
           <div class="services-block">
 
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <i class="fas fa-laptop-code"></i>
+            <span>FRONT END</span>
+            <p class="separator">HTML5, CSS, Bootstrap, JQuery, Javascript</p>
 
           </div>
 
           <div class="services-block">
 
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <i class="fas fa-server"></i>
+            <span>BACK END</span>
+            <p class="separator">NodeJS</p>
 
           </div>
 
           <div class="services-block">
 
-            <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <i class="fab fa-connectdevelop"></i>
+            <span>FRAMEWORKS</span>
+            <p class="separator">Express.js </p>
 
           </div>
 
           <div class="services-block">
 
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <i class="fas fa-code"></i>
+            <span>LANGUAGES</span>
+            <p class="separator">Python, Java, C</p>
 
           </div>
 
           <div class="services-block">
 
-            <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <i class="fas fa-database"></i>
+            <span>DATABASES</span>
+            <p class="separator">Non-relational and relational, MongoDB, Mongoose, SQL</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="fab fa-medapps"></i>
+            <span>OTHER</span>
+            <p class="separator">Discord.js, MS Office, goormIDE, Git/GitHub</p>
 
           </div>
 
@@ -201,139 +214,64 @@
       <div class="section-title text-center">
         <h2>My Portfolio</h2>
       </div>
-    </div>
 
-    <div class="container">
+    <div id="portfoliocards" class="container">
       <div class="row">
-        <div class="col-md-12">
-
-          <div class="portfolio-list">
-
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".mockups">mockups</li>
-              <li class="filter" data-filter=".uikits">ui kits</li>
-              <li class="filter" data-filter=".webdesign">web design</li>
-              <li class="filter" data-filter=".photography">photography</li>
-            </ul>
-
-          </div>
-
-          <div class="portfolio-container">
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-              <a class="popup-img" href="images/portfolio/1.jpg">
-                <img src="images/portfolio/1.jpg" alt="img">
-              </a>
+        <div class="col-md-6">
+            <div class="card" style="width: 24rem;">
+                <img src="images/portfolio/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Demo</a>
+                  <a href="#" class="btn btn-primary">Source</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="width: 24rem;">
+                <img src="images/portfolio/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Demo</a>
+                  <a href="#" class="btn btn-primary">Source</a>
+                </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-              <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-              <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpg">
-                <img src="images/portfolio/4.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-              <a class="popup-img" href="images/portfolio/6.jpg">
-                <img src="images/portfolio/6.jpg" alt="img">
-              </a>
-            </div>
-
-          </div>
         </div>
       </div>
     </div>
 
-  </div>
-  <!-- End section portfolio -->
-
-
-  <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>journal</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="journal-block">
+    <div id="portfoliocards" class="container">
         <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
-              </div>
-
-            </div>
+          <div class="col-md-6">
+              <div class="card" style="width: 24rem;">
+                  <img src="images/portfolio/1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Demo</a>
+                    <a href="#" class="btn btn-primary">Source</a>
+                  </div>
+                </div>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
+          <div class="col-md-6">
+              <div class="card" style="width: 24rem;">
+                  <img src="images/portfolio/1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Demo</a>
+                    <a href="#" class="btn btn-primary">Source</a>
+                  </div>
               </div>
-
-            </div>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
-              </div>
-
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
-
   </div>
-  <!-- End section journal -->
+
+  <!-- End section portfolio -->
 
 
   <!-- start sectoion contact -->
@@ -446,6 +384,12 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <script>
+      $(window).on("load",function(){
+       $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
