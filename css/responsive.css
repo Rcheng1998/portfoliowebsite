@@ -44,46 +44,7 @@
     padding-top: 15px;
     display: block;
   }
-  /* About */
-  .head-info .header-content .cmaster h1 {
-    font-size: 32px;
-  }
-  #about .div-img-bg {
-    padding: 0;
-  }
-  #about .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-  #about .about-descr .p-heading {
-    font-size: 20px;
-  }
-  #about .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
+
 
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -115,46 +76,6 @@
     padding-top: 15px;
     display: block;
   }
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-  #about .div-img-bg {
-    padding: 0;
-  }
-  #about .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-  #about .about-descr .p-heading {
-    font-size: 20px;
-  }
-  #about .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-    display: inline-block;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
 
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -186,46 +107,6 @@
     padding-top: 15px;
     display: block;
   }
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-  #about .div-img-bg {
-    padding: 0;
-  }
-  #about .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-  #about .about-descr .p-heading {
-    font-size: 20px;
-  }
-  #about .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 10px;
-    display: inline-block;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
 
 /** Width between 480px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,46 +138,6 @@
     padding-top: 15px;
     display: block;
   }
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-  #about .div-img-bg {
-    padding: 0;
-  }
-  #about .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-  #about .about-descr .p-heading {
-    font-size: 20px;
-  }
-  #about .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
-
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
@@ -326,48 +167,5 @@
     float: right;
     padding-top: 15px;
     display: block;
-  }
-  /* About */
-  .head-info .header-content h1 {
-    font-size: 32px;
-  }
-  #about .div-img-bg {
-    padding: 0;
-  }
-  #about .div-img-bg .about-img img {
-    margin-top: 0%;
-    margin-left: calc(0% - 0px);
-  }
-  #about .about-descr .p-heading {
-    font-size: 20px;
-  }
-  #about .about-descr .separator {
-    max-width: 100%;
-    margin-bottom: 0;
-  }
-  /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
-  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-  /* Single page */
-  .entry-comments-body span {
-    display: inline-block;
-    margin-right: 0;
   }
 }

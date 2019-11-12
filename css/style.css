@@ -254,7 +254,7 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.767);
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -284,7 +284,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #000000;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -297,18 +297,18 @@ nav ul li a {
   float: left;
 }
 
-.logo img {
-  width: 100px;
-  height: 50px;
-}
-
 .responsive {
   display: none;
   font-size: 23px;
 }
 
 .active {
-  color: #afafaf;
+  color: #000000;
+}
+
+.navbar-brand img{
+  height:50px;
+  width:100px;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -532,6 +532,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
+  height: 100%;
   position: relative;
   padding-bottom: 50px;
   background-color: #f7f7f7;
@@ -546,12 +547,10 @@ nav ul li a {
   margin: 0;
 }
 
-#portfoliocards{
-  display:flex;
-  justify-content: center;
-  align-content: center;
-  margin-bottom: 2%;
+#portfoliocards .row{
+  margin-bottom: 10px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
